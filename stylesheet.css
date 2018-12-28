@@ -40,3 +40,52 @@ h1{
   margin-right: auto;
   width: 25%;
 }
+
+#vinnie{
+	float:left;
+	width: 300px;
+
+}
+
+.aboutBody{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#VinnieText{
+	text-align: center;
+	color: #FA7268;
+	font-size: 30px;
+}
+
+#droid{
+	float: right;
+	width: 350px;
+}
+
+#aboutButton{
+	width: 0px;
+	height: 0px;
+}
+
+#aboutButtonButton{
+	font-size: 30pt;
+	text-decoration: underline;
+	background-color: #FFC0CB;
+	color: #FA7268;
+	border: none;
+	display: inline-block;
+	text-align: center;
+}
+
+#DroidText{
+	color: #FA7268;
+	text-align: center ;
+	font-size: 30px;
+}
+
+.DroidBody{
+	font-weight: bold;
+	font-size: 18px;
+ 	text-align: left;
+}
