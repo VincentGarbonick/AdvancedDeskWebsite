@@ -1,0 +1,41 @@
+body {
+	background-color: white;
+}
+
+h1{
+
+	text-align: center;
+	font-family: "Serif";
+	font-size: 60px;
+	color: #FA7268;
+
+
+}
+
+.button {
+	font-size: 15pt;
+	text-decoration: underline;
+	background-color: #FFC0CB;
+	color: #FA7268;
+	border: none;
+	display: inline-block;
+	text-align: center;
+
+}
+#warning{
+	font-size: 10pt;
+	text-align: center;
+}
+
+.buttonParagraph{
+	margin: 10px;
+	text-align: center;
+
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
