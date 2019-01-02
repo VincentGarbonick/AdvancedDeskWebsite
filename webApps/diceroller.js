@@ -22,7 +22,9 @@ function dXRoll(arg1){
 	
 	//puts result in the area where "Resultdice" tag is in element
 	document.getElementById("resultDice").innerHTML = result
-	console.log(result);
+	//console.log(result);
+
+	return result
 }
 
 function dMulti(){
@@ -30,11 +32,29 @@ function dMulti(){
 	var size = prompt("How big are the dice you are rolling?", "6");
 
 	if(inputValidate(number) && inputValidate(size)){
-		console.log("valid");
+		console.log("valid input");
+
+
+		var i = 0;
+		var total = 0;
+		var hold = 0;  
+
+		for(i = 0; i < number; i++){
+			
+			hold = 0;
+			hold = dXRoll(size);
+			console.log(hold);
+			total = total + hold; 
+
+			document.getElementById("resultDice").innerHTML = total;
+
+		}
+	
+
 	}
 
 	else{
-		console.log("invalid data");
+		console.log("invalid input");
 	}
 
 }
