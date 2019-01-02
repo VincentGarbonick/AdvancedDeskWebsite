@@ -94,3 +94,7 @@ h1{
 	font-size: 18px;
  	text-align: left;
 }
+
+.resultBox{
+	color: red; 
+}
