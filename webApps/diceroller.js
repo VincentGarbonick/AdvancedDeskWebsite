@@ -4,6 +4,19 @@ function dXRoll(arg1){
 	console.log(result);
 }
 
-//add multi roll
+function dMulti(){
+	var person = prompt("Please enter your name", "Harry Potter");
 
-//add custom roll using js popup
+	if (person != null) {
+ 	 	document.getElementById("result").innerHTML =
+  		"Hello " + person + "! How are you today?";
+	}
+	else{
+		var test = prompt("suck my meat", "Burger")
+	}
+}
+
+function dCustom(){
+	var size = prompt("How big is the dice you are rolling?", "100");
+	dXRoll(size)
+}

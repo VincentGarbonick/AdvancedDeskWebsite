@@ -26,7 +26,7 @@ h1{
 
 .button:hover{
 		background-color: #ff99aa;
-		cursor:;
+		cursor:pointer;
 }
 
 #warning{
@@ -103,4 +103,13 @@ h1{
 
 .resultBox{
 	color: red; 
+}
+
+.diceButton{
+	font-size: 2vw;
+	text-align: center;
+}
+
+.diceButton:hover{
+	cursor:pointer;
 }
