@@ -101,8 +101,8 @@ h1{
  	text-align: left;
 }
 
-.resultBox{
-	color: red; 
+.resultDice{
+	font-size: 30px;
 }
 
 .diceButton{
@@ -112,4 +112,8 @@ h1{
 
 .diceButton:hover{
 	cursor:pointer;
+}
+
+.red{
+	color:red;
 }
