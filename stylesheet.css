@@ -23,6 +23,11 @@ h1{
 	text-align: center;
 
 }
+
+.button:hover{
+		background-color: #ff99aa;
+}
+
 #warning{
 	font-size: 10pt;
 	text-align: center;
