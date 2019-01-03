@@ -1,3 +1,10 @@
+//spits out a random rgb color for the color of the html element containing the result text
+function random_rgba() {
+    var o = Math.round, r = Math.random, s = 255;
+    return 'rgba(' + o(r()*s) + ',' + o(r()*s) + ',' + o(r()*s) + ',' + r().toFixed(1) + ')';
+}
+
+
 //checks to see if passed parameter is a number, a spinoff of a jquery function
 function isNumeric(n) {
   return !isNaN(parseFloat(n)) && isFinite(n);
@@ -20,9 +27,23 @@ function dXRoll(arg1){
 	//picks random variable from one to passed value 
 	result = Math.floor(Math.random() * arg1) + 1;
 	
+	
+
+	//randomize color of result 
+	//$(stylesheet.css).css("color", random_rgba());
+	//https://stackoverflow.com/questions/566203/changing-css-values-with-javascript
+	//https://stackoverflow.com/questions/23095637/how-do-you-do-a-random-rbg-in-javascript
+	//https://www.google.com/search?q=changing+css+with+javascript&rlz=1C1WPZB_enUS828US828&oq=changing+css+with+javascript&aqs=chrome.0.0j69i60j0l4.10951j0j7&sourceid=chrome&ie=UTF-8
+	//
+
+
+
 	//puts result in the area where "Resultdice" tag is in element
 	document.getElementById("resultDice").innerHTML = result
 	//console.log(result);
+
+
+
 
 	return result
 }
