@@ -101,10 +101,6 @@ h1{
  	text-align: left;
 }
 
-.resultDice{
-	font-size: 30px;
-}
-
 .diceButton{
 	font-size: 2vw;
 	text-align: center;
@@ -116,4 +112,16 @@ h1{
 
 .red{
 	color:red;
+}
+
+#resultDiv{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;	
+}
+
+#resultDice{
+	font-size: 40px;
+
 }
