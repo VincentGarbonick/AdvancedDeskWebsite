@@ -34,15 +34,15 @@ function dXRoll(arg1){
 	//https://stackoverflow.com/questions/566203/changing-css-values-with-javascript
 	//https://stackoverflow.com/questions/23095637/how-do-you-do-a-random-rbg-in-javascript
 	//https://www.google.com/search?q=changing+css+with+javascript&rlz=1C1WPZB_enUS828US828&oq=changing+css+with+javascript&aqs=chrome.0.0j69i60j0l4.10951j0j7&sourceid=chrome&ie=UTF-8
-	//
+	//considering using javascript to just change inline value of the color and font size for the result box.....
 
 
 
 	//puts result in the area where "Resultdice" tag is in element
-	document.getElementById("resultDice").innerHTML = result
+	document.getElementById('resultDice').innerHTML = result;
 	//console.log(result);
-
-
+	document.getElementById('resultDice').style.color = random_rgba();
+	//ok so this method works HOLY FUCK IT WORKS YES YES YES YES YES!!!!!
 
 
 	return result
