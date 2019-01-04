@@ -4,6 +4,29 @@ function random_rgba() {
     return 'rgba(' + o(r()*s) + ',' + o(r()*s) + ',' + o(r()*s) + ',' + r().toFixed(1) + ')';
 }
 
+//shifts between red blue and green for dice colors to make it easier to tell if your roll is different
+function shiftColor(){
+
+	if(document.getElementById('resultDice').style.color == 'red'){
+		
+		document.getElementById('resultDice').style.color = 'blue';
+
+	}
+
+	else if(document.getElementById('resultDice').style.color == 'blue'){
+
+		document.getElementById('resultDice').style.color = 'green';
+
+	} 
+
+	else{
+
+		document.getElementById('resultDice').style.color = 'red';
+
+	}
+
+}
+
 
 //checks to see if passed parameter is a number, a spinoff of a jquery function
 function isNumeric(n) {
@@ -41,7 +64,7 @@ function dXRoll(arg1){
 	//puts result in the area where "Resultdice" tag is in element
 	document.getElementById('resultDice').innerHTML = result;
 	//console.log(result);
-	document.getElementById('resultDice').style.color = random_rgba();
+	document.getElementById('resultDice').style.color = shiftColor();
 	//ok so this method works HOLY FUCK IT WORKS YES YES YES YES YES!!!!!
 
 
