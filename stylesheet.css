@@ -13,6 +13,14 @@ h1{
 
 }
 
+.bodyBackground{
+	background: url("/imgSrc/jellyF.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
 .button {
 	font-size: 15pt;
 	text-decoration: underline;
@@ -145,4 +153,23 @@ h1{
 	font-family: "Serif";
 	font-size: 30px;
 	color: #FA7268;
+}
+
+.centerStrip
+{
+    margin: 0 auto;
+	max-width: 80%;
+	background-color: rgba(209, 231, 236, 0.6);
+	padding:8px;
+}
+
+.buttonCenter input{
+	display:block;
+	float:left;
+	min-height: 30em;
+	min-width: 30em;
+	height: 16%;
+	width: 16%;
+	padding: 0 1em;
+	
 }
