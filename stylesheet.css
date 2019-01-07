@@ -139,3 +139,10 @@ h1{
 	background-color: #ff99aa;
 	cursor:pointer;
 }
+
+.appTitle{
+	text-align: left;
+	font-family: "Serif";
+	font-size: 30px;
+	color: #FA7268;
+}
