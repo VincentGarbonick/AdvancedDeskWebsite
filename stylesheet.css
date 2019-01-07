@@ -125,5 +125,17 @@ h1{
 }
 
 .homeButton{
-	
+	display: inline-block;
+	margin-left: auto;
+	margin-right:auto;
+	position: relative;
+	width:60px;
+	border: solid;
+	border-color: #FA7268;
+	background-color:#FFC0CB;
+}
+
+.homeButton:hover{
+	background-color: #ff99aa;
+	cursor:pointer;
 }
