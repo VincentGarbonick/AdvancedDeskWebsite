@@ -10,6 +10,11 @@
     background-position:center;
 }
 
+.dice:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
 #d6-dice{
     background-image:url('/imgSrc/d6dice.png');
 }
@@ -40,4 +45,23 @@
 
 #dCustom-dice{
     background-image: url('/imgSrc/dCustom.png');
+}
+
+#result-text{
+    font-size: 3em;
+    text-align: center;
+}
+
+#resultDice{
+    font-size: 10em;
+    text-align: center;
+}
+
+
+#container-box{
+    display:block;
+    float: left;
+    width: 20em;
+    height: 20em;
+    border: 2px solid black;
 }
