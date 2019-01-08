@@ -57,11 +57,17 @@
     text-align: center;
 }
 
-
 #container-box{
     display:block;
     float: left;
     width: 20em;
     height: 20em;
     border: 2px solid black;
+}
+
+#rollerBackground{
+    background-image:url('/imgSrc/dungeon.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
 }
