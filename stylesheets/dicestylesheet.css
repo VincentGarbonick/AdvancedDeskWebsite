@@ -12,7 +12,7 @@
 
 .dice:hover{
     cursor: pointer;
-    background-color: red;
+    background-color: rgba(105,186,226,0.4);
 }
 
 #d6-dice{
@@ -70,4 +70,12 @@
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
+}
+
+#center-block{
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 0px;
+    background-color: rgba(170,216,239, 0.3);
+    height:100em;
 }
