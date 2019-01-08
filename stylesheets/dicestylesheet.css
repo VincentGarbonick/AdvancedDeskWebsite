@@ -1,7 +1,43 @@
+.dice{
+    display:block;
+    width:20em;
+    height:20em;
+    /* border:1px solid red; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    margin:.2em;
+    background-position:center;
+}
+
 #d6-dice{
+    background-image:url('/imgSrc/d6dice.png');
+}
 
-background:url("/imgSrc/vinnie.png") no-repeat fixed center;
-display:block;
+#d20-dice{
+    background-image:url('/imgSrc/d20dice.png');
+}
 
+#d8-dice{
+    background-image:url('/imgSrc/d8dice.png');
+}
 
+#d10-dice{
+    background-image:url('/imgSrc/d10dice.png');
+}
+
+#d12-dice{
+    background-image:url('/imgSrc/d12dice.png');
+}
+
+#d4-dice{
+    background-image:url('/imgSrc/d4dice.png');
+}
+
+#dmulti-dice{
+    background-image:url('/imgSrc/dmulti.png');
+}
+
+#dCustom-dice{
+    background-image: url('/imgSrc/dCustom.png');
 }
