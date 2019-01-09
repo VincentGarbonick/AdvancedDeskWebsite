@@ -1,171 +1,43 @@
 body {
-	background-color: #D3FDD7;
 	font-family: Helvetica;
+	background-image: url("/img/mountain.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	/*removes automatically added margin that fucks with your center div*/
+	margin: 0;
 }
 
 h1{
-
-  	font-size: 3em;
-  	margin-top: 0.67em;
-  	margin-bottom: 0.67em;
-  	margin-left: 0;
-  	margin-right: 0;
-	color: #FA7268;
-	text-align: center;
-	font-family: serif;
-
-
+	font-size:5vw;
+	font: helvetica;
+	color: rgb(255,255,240);
+	float: left;
+	margin: 0;
 }
 
-.bodyBackground{
-	background: url("/imgSrc/jellyF.png");
+#center-strip{
+	height:100vh;
+	width: 75vw;
+	background-color: rgba(33, 40, 68, 0.8);
+	margin: 0 auto;
+}
+
+#title-bar{
+	height:30vh;
+	width: 75vw;
+	display: inline-block;
+}
+
+#title-logo{
+	background-image:url('/img/evileye.png');
+	background-size: 100%;
 	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-
-}
-
-.button {
-	font-size: 1.5em;
-	text-decoration: underline;
-	background-color: rgba(255, 192, 203,0.7);
-	color: #FA7268;
-	border: none;
-	display: block;
-	text-align: center;
-	margin: 10px auto;
-	max-width:100%;
-}
-
-.button:hover{
-		background-color: #ff99aa;
-		cursor:pointer;
-}
-
-#warning{
-	font-size: 10pt;
-	text-align: center;
-}
-
-.center{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
-}
-
-#vinnie{
+	background-position:center;
 	float:left;
-	width: 300px;
-
+	height:20vh;
+	width: 20vw;	
 }
 
-.aboutBody{
-	font-weight: bold;
-	font-size: 18px;
-}
-
-#VinnieText{
-	text-align: center;
-	color: #FA7268;
-	font-size: 30px;
-}
-
-#droid{
-	float: right;
-	width: 350px;
-}
-
-#aboutButton{
-	width: 0px;
-	height: 0px;
-}
-
-#aboutButtonButton{
-	font-size: 30pt;
-	text-decoration: underline;
-	background-color: #FFC0CB;
-	color: #FA7268;
-	border: none;
-	display: inline-block;
-	text-align: center;
-}
-
-#DroidText{
-	color: #FA7268;
-	text-align: center ;
-	font-size: 30px;
-}
-
-.DroidBody{
-	font-weight: bold;
-	font-size: 18px;
- 	text-align: left;
-}
-
-.diceButton{
-	font-size: 2vw;
-	text-align: center;
-}
-
-.diceButton:hover{
-	cursor:pointer;
-}
-
-.red{
-	color:red;
-}
-
-/*
-#resultBox{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;	
-  border-bottom: 6px solid red;
-  background-color: lightred;
-
-}
-*/
-
-.homeButton{
-	display: inline-block;
-	margin-left: auto;
-	margin-right:auto;
-	position: relative;
-	width:60px;
-	border: solid;
-	border-color: #FA7268;
-	background-color:#FFC0CB;
-}
-
-.homeButton:hover{
-	background-color: #ff99aa;
-	cursor:pointer;
-}
-
-.appTitle{
-	text-align: left;
-	font-family: "Serif";
-	font-size: 30px;
-	color: #FA7268;
-}
-
-.centerStrip
-{
-    margin: 0 auto;
-	max-width: 80%;
-	background-color: rgba(209, 231, 236, 0.6);
-	padding:8px;
-}
-
-.buttonCenter input{
-	display:block;
-	float:left;
-	min-height: 30em;
-	min-width: 30em;
-	height: 16%;
-	width: 16%;
-	padding: 0 1em;
-	
-}
+/*work on title bar to look like what you have, make sure to realize that vw and vh make fluid shit 
+and to have image be larger than text in terms of height.*/
