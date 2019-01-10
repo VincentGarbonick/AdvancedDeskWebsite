@@ -4,37 +4,39 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-size: cover;
+	background-attachment: fixed;
 	/*removes automatically added margin that fucks with your center div*/
 	margin: 0;
+	/*background-color: rgba(33, 40, 68, 0.8);*/
+
 }
 
 h1{
 	font-size:5vw;
 	font-family: helvetica;
-	color: rgb(255,255,240);
-	float: left;
-	display: block;
-	padding: 0;
-	margin: 0;
-	margin-top:2.1rem;
-
+	color: rgb(71,100,204);
+	padding:0 auto;
+	margin: 0 auto;
+	text-align: center;
 	
 }
 
+/*
 #center-strip{
 	height:100vh;
 	width: auto;
 	background-color: rgba(33, 40, 68, 0.8);
 	margin: 0 auto;
 }
-
-#title-bar{
+*/
+.header-banner{
 	height: 10rem;
 	display: block;
+
 }
 
 
-#title-logo{
+.header-logo{
 	background-image:url('/img/evileye.png');
 	background-repeat: no-repeat;
 	background-position:center;
@@ -42,11 +44,21 @@ h1{
 	min-width: 10rem;
 }
 
-#navbar{
+.navbar{
 	height:1.4rem;
 	background-color: rgba(25, 30, 53,0.9);
 	padding-top: 3px;
+	text-align: center;
 
+}
+
+.navbar-home{
+	float:right;
+	font-size: 1.4rem;
+	color: rgb(255,255,240);
+	padding-right: 1.5rem;
+	font-style: italic;
+	letter-spacing: .8rem;
 }
 
 .navbar-option{
@@ -64,16 +76,47 @@ h1{
 	
 }
 
-#divider-bar{
+.navbar-home:hover{
+	cursor: pointer;
+	/*border-bottom:  rgb(255,255,240) solid 3px; */
+	font-weight:bold;
+	text-decoration: underline;
+}
+
+a:-webkit-any-link{
+	text-decoration: none;
+}
+
+.navbar-option:visited{
+	text-decoration: none;
+}
+
+.divider-bar{
 	height: .3rem;
-	background-color:rgba(8,10,17);
+	background-color:rgb(136,234,243);
 
 }
 
-#body-block{
-	width: 75vw;
-	height: 57vh;
+.body-backdrop{
+	height: 80vh;
+	background-color: rgba(66, 81, 138,0.5);
+
 }
+
+.body-block{
+	background-color: rgba(16,20,35,0.9);
+	height:80vh;
+	width:80vw;
+	margin: 0 auto;
+}
+
+.about-block{
+	color:rgb(255,255,240);
+	display: block;
+	float: left;
+}
+
+
 
 /*work on title bar to look like what you have, make sure to realize that vw and vh make fluid shit 
 and to have image be larger than text in terms of height.*/
