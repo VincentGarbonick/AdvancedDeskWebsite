@@ -107,22 +107,37 @@ a:-webkit-any-link{
 }
 
 .body-backdrop{
-	height: 80vh;
+	min-height: 90vh;
+	max-height: 100%;
 	background-color: rgba(66, 81, 138,0.5);
+	padding-bottom:0px;
+	margin-bottom:0px;
 
 }
 
 .body-block{
 	background-color: rgba(16,20,35,0.9);
-	height:80vh;
+	min-height: 90vh;
+	max-height: 100%;
 	width:80vw;
 	margin: 0 auto;
+	margin-bottom:0;
+	padding-bottom:0;
+	border-bottom: 2px solid #161b2d;
+}
+
+.body-footer{
+	background-color:red;
+	height:10vh;
+	width:100vw;
 }
 
 .about-block{
 	color:rgb(255,255,240);
 	display: block;
-	float: left;
+	margin-left:2em;
+	margin-right:2em;
+	font-size:2em;
 }
 
 #bongo-image{
@@ -155,6 +170,16 @@ a:-webkit-any-link{
 	text-decoration:none;
 }
 
+#cute-boy{
+	width: 25em;
+	height: 25em;
+	float:right;
+	margin-right: 1em;
+	margin-left: 1em;
+}
+
 
 /*work on title bar to look like what you have, make sure to realize that vw and vh make fluid shit 
 and to have image be larger than text in terms of height.*/
+
+/*add a footer with cool stuff like a terms of service and whatnot......*/
