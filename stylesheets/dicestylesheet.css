@@ -80,3 +80,31 @@
     background-color: rgba(170,216,239, 0.3);
     height:100em;
 }
+
+#home-button{
+    display: block;
+    float: left;
+    width: 9em;
+    height: 9em;
+    background-color:rgba(170,216,239, 0.3);
+    margin-left:1em;
+    border:2px solid black;
+
+}
+
+#home-image{
+    background-image: url('/img/homebutton.png');
+    height:7em;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 0 auto;
+    margin-top:1em;
+    
+}
+
+#home-button:hover{
+    cursor:pointer;
+    background-color: #398ab2;
+}
+
