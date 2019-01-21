@@ -21,6 +21,16 @@ h1{
 	
 }
 
+h2{
+	font-size:2vw;
+	font-family: helvetica;
+	color: rgb(250,250,240);
+	padding:0 auto;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+
 h3{	
 	font-size:1rem;
 	font-family: helvetica;
@@ -38,6 +48,10 @@ h3{
 	margin: 0 auto;
 }
 */
+
+#motto{
+	border-bottom: 2px solid rgb(71,100,204);
+}
 .header-banner{
 	height: 10rem;
 	display: block;
@@ -124,6 +138,7 @@ a:-webkit-any-link{
 	margin-bottom:0;
 	padding-bottom:0;
 	border-bottom: 2px solid #161b2d;
+	box-shadow: inset 0px 0px 6px 0px #27496B;
 }
 
 .body-footer{
@@ -176,10 +191,13 @@ a:-webkit-any-link{
 	float:right;
 	margin-right: 1em;
 	margin-left: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
 
 /*work on title bar to look like what you have, make sure to realize that vw and vh make fluid shit 
 and to have image be larger than text in terms of height.*/
 
-/*add a footer with cool stuff like a terms of service and whatnot......*/
+/*add a footer with cool stuff like a terms of service and whatnot......also talk about your free webapps in about us, "caffeine and death metal, and 
+contact info bar*/
