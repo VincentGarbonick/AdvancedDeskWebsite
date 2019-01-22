@@ -120,6 +120,7 @@ a:-webkit-any-link{
 
 }
 
+
 .body-backdrop{
 	min-height: 90vh;
 	max-height: 100%;
@@ -142,9 +143,20 @@ a:-webkit-any-link{
 }
 
 .body-footer{
-	background-color:red;
+	background-color:rgb(25, 30, 53);
 	height:10vh;
 	width:100vw;
+}
+
+.contact-box{
+	width:13em;
+	height:20em;
+	background-color:red;
+	float:left;
+	margin-left:1em;
+	margin-right:1em;
+	margin-bottom:1em;
+	margin-top:1em;
 }
 
 .about-block{
@@ -193,6 +205,7 @@ a:-webkit-any-link{
 	margin-left: 1em;
 	margin-top: 1em;
 	margin-bottom: 1em;
+	border-radius: 8px;
 }
 
 
