@@ -248,6 +248,18 @@ a:-webkit-any-link{
 	margin-top:0;
 }
 
+#droid{
+	width: 25em;
+	height: 25em;
+	float:left;
+	margin-right: 1em;
+	margin-left: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	border-radius: 8px;
+	
+}
+
 /*work on title bar to look like what you have, make sure to realize that vw and vh make fluid shit 
 and to have image be larger than text in terms of height.*/
 
