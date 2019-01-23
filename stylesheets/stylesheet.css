@@ -12,14 +12,18 @@ body {
 }
 
 h1{
-	font-size:5vw;
+	font-size:4.5vw;
 	font-family: helvetica;
 	color: rgb(71,100,204);
-	padding:0 auto;
-	margin: 0 auto;
 	text-align: center;
 	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-
+	background-color:transparent;
+	z-index:1;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+	position:absolute
 }
 
 h2{
@@ -141,6 +145,7 @@ a:-webkit-any-link{
 	padding-bottom:0px;
 	margin-bottom:0px;
 	width:100vw;
+	z-index: 8;
 }
 
 .body-block{
@@ -213,50 +218,49 @@ a:-webkit-any-link{
 	text-decoration:none;
 }
 
-#cute-boy{
-	width: 25em;
-	height: 25em;
-	float:right;
-	margin-right: 1em;
-	margin-left: 1em;
-	margin-top: 1em;
-	margin-bottom: 1em;
-	border-radius: 8px;
-}
-
-.emphasis-text{
-	text-transform: uppercase;
-	font-size: 2.2;
-	color:rgb(71,100,204);
-	text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px darkred;
-
-}
-
-.contact-title{
-	font-size: 1.3rem;
-	color: rgb(255,255,240);
+#mission-statement-container{
+	position: relative;
+	height:36rem;
+	width:80vw;
+	margin:0 auto;
 	text-align: center;
-	text-decoration: underline;
-	margin-bottom:0;
-	text-shadow: 1px 1px 2px black;
 }
 
-.contact-content{
-	font-size: 1.1rem;
+#background-option-1{
+	background-image: url("/img/logoBG.png");
+	height: inherit;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100%;
+	background-attachment: fixed;
+	filter:blur(3.5px);
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+}
+#opening-title{
+	position: absolute;
 	color:rgb(255,255,240);
-	text-align: center;
-	margin-top:0;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+	font-size:5rem;
+	margin-top:1.6rem;
+	text-decoration: bold;
+	
 }
-
-#droid{
-	width: 25em;
-	height: 25em;
-	float:left;
-	margin-right: 1em;
-	margin-left: 1em;
-	margin-top: 1em;
-	margin-bottom: 1em;
-	border-radius: 8px;
+#opening-subtext{
+	position: absolute;
+	color:rgb(255,255,240);
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+	font-size:5rem;
+	margin-top:1.6rem;
+	text-decoration: italic;
 	
 }
 
@@ -267,3 +271,7 @@ and to have image be larger than text in terms of height.*/
 contact info bar*/
 
 /*add day and night mode style sheet thing lol */
+
+/*dangerou info 
+https://blog.jscrambler.com/the-most-effective-way-to-protect-client-side-javascript-applications/
+*/
