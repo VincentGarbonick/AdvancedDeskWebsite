@@ -23,7 +23,10 @@ h1{
 	margin-right:auto;
 	left:0;
 	right:0;
-	position:absolute
+	position:relative;
+	margin-top:0;
+	margin-bottom:.5rem;
+	padding-top
 }
 
 h2{
@@ -222,8 +225,11 @@ a:-webkit-any-link{
 	position: relative;
 	height:36rem;
 	width:80vw;
-	margin:0 auto;
 	text-align: center;
+	margin-right:auto;
+	margin-left:auto;
+	left:0;
+	right:0;
 }
 
 #background-option-1{
@@ -240,7 +246,7 @@ a:-webkit-any-link{
 	right:0;
 }
 #opening-title{
-	position: absolute;
+	position: relative;
 	color:rgb(255,255,240);
 	margin-left:auto;
 	margin-right:auto;
@@ -252,16 +258,61 @@ a:-webkit-any-link{
 	
 }
 #opening-subtext{
-	position: absolute;
+	position: relative;
 	color:rgb(255,255,240);
 	margin-left:auto;
 	margin-right:auto;
 	left:0;
 	right:0;
-	font-size:5rem;
-	margin-top:1.6rem;
+	font-size:4.5rem;
+
 	text-decoration: italic;
-	
+	font-style:italic;
+	text-shadow: 1px 1px 2px black
+}
+
+#about-image-container{
+	position: relative;
+	height:36rem;
+	width:80vw;
+	text-align: center;
+	margin-right:auto;
+	margin-left:auto;
+	left:0;
+	right:0;
+}
+
+#background-option-2{
+	background-image: url("/img/logoBG2.jpg");
+	height: inherit;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:100%;
+	background-attachment: fixed;
+	filter:blur(3.5px);
+	position:relative;
+	top:0;
+	left:0;
+	right:0;
+	margin-top:2.5rem;
+}
+
+.opener-text{
+	font-size:4.5vw;
+	font-family: helvetica;
+	color: rgb(71,100,204);
+	text-align: center;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	background-color:transparent;
+	z-index:1;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+	position:relative;
+	margin-top:0;
+	margin-bottom:.5rem;
+	font-style:bold;
 }
 
 /*work on title bar to look like what you have, make sure to realize that vw and vh make fluid shit 
