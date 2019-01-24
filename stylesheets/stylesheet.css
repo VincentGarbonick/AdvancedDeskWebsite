@@ -26,7 +26,6 @@ h1{
 	position:relative;
 	margin-top:0;
 	margin-bottom:.5rem;
-	padding-top
 }
 
 h2{
@@ -298,7 +297,7 @@ a:-webkit-any-link{
 }
 
 .opener-text{
-	font-size:4.5vw;
+	font-size:7rem;
 	font-family: helvetica;
 	color: rgb(71,100,204);
 	text-align: center;
@@ -313,6 +312,36 @@ a:-webkit-any-link{
 	margin-top:0;
 	margin-bottom:.5rem;
 	font-style:bold;
+}
+
+#employers-button{
+	text-align:center;
+	font-size:2rem;
+	border:2px solid red;
+	background-color:pink;
+	
+	width:20rem;
+	height:10rem;
+
+	margin:0 auto;
+
+}
+
+#user-button{
+	text-align:center;
+	font-size:2rem;
+	border:2px solid blue;
+	background-color:lightblue;
+	
+	width:20rem;
+	height:10rem;
+
+	margin:0 auto;
+
+}
+#home-button-wrapper{
+	position:relative;
+	display:flex;
 }
 
 /*work on title bar to look like what you have, make sure to realize that vw and vh make fluid shit 
