@@ -108,6 +108,8 @@ h4{
 	padding-left:13px;
 	padding-right:13px;	
 	font-size:1.5rem;
+	font-family: 'Roboto', sans-serif;
+
 }
 
 .navbar-option:hover{
@@ -148,6 +150,7 @@ a:-webkit-any-link{
 	margin-bottom:0px;
 	width:100vw;
 	z-index: 8;
+	padding-top:1.5em;
 }
 
 .body-block{
@@ -237,7 +240,8 @@ a:-webkit-any-link{
 	background-repeat:no-repeat;
 	background-position:center;
 	background-size:100%;
-	background-attachment: fixed;
+	/*background-attachment: fixed;*/
+	background-attachment: scroll;
 	filter:blur(3.5px);
 	position:absolute;
 	top:0;
@@ -263,8 +267,23 @@ a:-webkit-any-link{
 	margin-right:auto;
 	left:0;
 	right:0;
-	font-size:4.5rem;
-
+	font-size:4vw;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-decoration: italic;
+	font-style:italic;
+	text-shadow: 1px 1px 2px black
+}
+#who-are-you{
+	position: relative;
+	color:rgb(255,255,240);
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+	font-size:3vw;
+	padding-top:2rem;
+	padding-bottom:3rem;
+	font-family: 'Roboto Condensed', sans-serif;
 	text-decoration: italic;
 	font-style:italic;
 	text-shadow: 1px 1px 2px black
@@ -287,7 +306,8 @@ a:-webkit-any-link{
 	background-repeat:no-repeat;
 	background-position:center;
 	background-size:100%;
-	background-attachment: fixed;
+	/* looks cool but has a lot of issues background-attachment: fixed; */
+	background-attachment: scroll;
 	filter:blur(3.5px);
 	position:relative;
 	top:0;
@@ -297,11 +317,11 @@ a:-webkit-any-link{
 }
 
 .opener-text{
-	font-size:7rem;
-	font-family: helvetica;
+	font-size:6vw;
+	font-family: 'Roboto', sans-serif;
 	color: rgb(71,100,204);
 	text-align: center;
-	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	text-shadow: 1px 1px 2px black;
 	background-color:transparent;
 	z-index:1;
 	margin-left:auto;
@@ -317,33 +337,47 @@ a:-webkit-any-link{
 #employers-button{
 	text-align:center;
 	font-size:2rem;
-	border:2px solid red;
 	background-color:pink;
 	
-	width:20rem;
-	height:10rem;
+	width:14rem;
+	height:5rem;
 
 	margin:0 auto;
-
+	animation:shadow-pulse 1s infinite;
 }
 
 #user-button{
 	text-align:center;
 	font-size:2rem;
-	border:2px solid blue;
 	background-color:lightblue;
 	
-	width:20rem;
-	height:10rem;
+	width:14rem;
+	height:5rem;
 
 	margin:0 auto;
+	animation:shadow-pulse 1s infinite;
 
 }
 #home-button-wrapper{
 	position:relative;
 	display:flex;
+	padding:20px;
 }
 
+#website-name{
+
+
+}
+
+@keyframes shadow-pulse
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(71,100,204, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 0 35px rgba(71,100,204, 0);
+  }
+}
 /*work on title bar to look like what you have, make sure to realize that vw and vh make fluid shit 
 and to have image be larger than text in terms of height.*/
 
