@@ -351,6 +351,13 @@ a:any-link{
 	animation:shadow-pulse 1s infinite;
 }
 
+#employers-button:hover{
+	cursor:pointer;
+	animation:none;
+	background-color: #a07d2c;
+	
+}
+
 #user-button{
 	text-align:center;
 	font-size:2rem;
@@ -364,6 +371,13 @@ a:any-link{
 	animation:shadow-pulse 1s infinite;
 
 }
+
+#user-button:hover{
+	cursor:pointer;
+	animation:none;
+	background-color:#a0432c;
+}
+
 #home-button-wrapper{
 	position:relative;
 	display:flex;
@@ -393,6 +407,7 @@ a:any-link{
     box-shadow: 0 0 0 35px rgba(71,100,204, 0);
   }
 }
+
 /*work on title bar to look like what you have, make sure to realize that vw and vh make fluid shit 
 and to have image be larger than text in terms of height.*/
 
