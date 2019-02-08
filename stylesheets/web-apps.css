@@ -10,15 +10,23 @@
 #dice-box{
     background-image: url("/img/dice-roller-logo.png");
     display:flex;
-    width:20rem;
     height:20rem;
     /* border:1px solid red; */
     background-size: contain;
     background-repeat: no-repeat;
     margin:.2em;
     background-position:center;
-
+    /* This is for centering the items containined in the div */
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 20rem;
     
+}
+
+#dice-box:hover{
+    cursor: pointer;
+
 }
 
 #dice-roller-text{
