@@ -408,6 +408,16 @@ a:any-link{
   }
 }
 
+.center-strip{
+	margin: 0 auto;
+	min-height: 95vh;
+	max-height: 100%;
+	width: 70vw; 
+	background-color: rgba(73, 89, 156,0.8);
+	border-radius: 10px;
+;
+	/*border: 2px solid red;*/
+}
 /*work on title bar to look like what you have, make sure to realize that vw and vh make fluid shit 
 and to have image be larger than text in terms of height.*/
 
