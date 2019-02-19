@@ -527,6 +527,13 @@ a:any-link{
 	background-color: green;
 }
 
+.em-letter{
+	font-style: bold;
+	color:#88eaf3;
+	font-size:5vw;
+
+}
+
 /*work on title bar to look like what you have, make sure to realize that vw and vh make fluid shit 
 and to have image be larger than text in terms of height.*/
 
