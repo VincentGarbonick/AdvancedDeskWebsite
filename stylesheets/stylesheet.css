@@ -14,6 +14,7 @@ body {
 h1{
 	font-size:4.5vw;
 	font-family: helvetica;
+	font-family: 'Roboto', sans-serif;
 	color: rgb(71,100,204);
 	text-align: center;
 	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
@@ -57,6 +58,28 @@ h4{
 	text-align: center;
 	text-shadow: 1px 1px 2px black
 }
+
+#about-me{
+	font-size:6vw;
+	/*font-family: helvetica;*/
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	text-align: center;
+	background-color:transparent;
+	z-index:1;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+	position:relative;
+	margin-top:0;
+	margin-bottom:.5rem;
+	text-shadow: -4px 4px 0 #3e60cb, 4px 4px 0 #3e60cb, 4px -4px 0 #3e60cb, -4px -4px 0 #3e60cb;
+}
+
+
+
+
 /*
 #center-strip{
 	height:100vh;
@@ -447,7 +470,6 @@ a:any-link{
 
 .text-container{
 	background-color: transparent;
-	text-align: center;
 	width: 75vw;
 	margin: 0 auto;
 	margin-top: 10px;
@@ -550,6 +572,25 @@ a:any-link{
 .business-button:hover{
 	cursor:pointer;
 	background-color:#88eaf3;
+}
+
+.about-text{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
+	color: white;
+	display: block;
+	margin-top:20px;
+	margin-bottom:20px;
+	text-indent:60px;
+}
+
+#cute-boy{
+	background-image:url('/img/cute-boy.jpg');
+	height: 30rem;
+	width: 30rem;
+	float: right;
+	background-size: 100%;
+	border-radius:400px
 }
 /*work on title bar to look like what you have, make sure to realize that vw and vh make fluid shit 
 and to have image be larger than text in terms of height.*/
