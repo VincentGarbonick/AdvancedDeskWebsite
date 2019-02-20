@@ -502,19 +502,16 @@ a:any-link{
 }
 
 .medium-green-button{
-	display: inline-block;
+	display: block;
 	margin: 0 auto;
 	width: 20rem;
 	height: 4rem;
 	background-color: green;
 	border-bottom: 4px solid white;
 	text-align: center;
-	padding-top: 3px;
-	margin-left: 4rem;
-	margin-right: 4rem;
-	margin-top: 2rem;
-	margin-bottom: 2 rem;
 	border-radius: 4px;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 .green-button-text{
