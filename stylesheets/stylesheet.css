@@ -460,6 +460,7 @@ a:any-link{
 	z-index: 1;
 	margin: 0 auto;
 	font-style: italic;	
+	text-align: center;
 }
 
 .small-quote-text{
@@ -534,6 +535,22 @@ a:any-link{
 
 }
 
+.business-button{
+	display: block;
+	margin: 0 auto;
+	margin-top: 1rem;
+	background-color:#3e60cb;
+	border-bottom:4px solid white;
+	width:20rem;
+	height:4rem;
+	text-align:center;
+	border-radius: 5px;
+}
+
+.business-button:hover{
+	cursor:pointer;
+	background-color:#88eaf3;
+}
 /*work on title bar to look like what you have, make sure to realize that vw and vh make fluid shit 
 and to have image be larger than text in terms of height.*/
 
