@@ -501,7 +501,7 @@ a:any-link{
 	font-style: bold;
 }
 
-.user-page-button{
+.multi-page-button{
 	display: block;
 	margin: 0 auto;
 	width: 20rem;
@@ -524,7 +524,7 @@ a:any-link{
 	transform:translateY(-50%);
 }
 
-.user-page-button:hover{
+.multi-page-button:hover{
 	cursor: pointer;
 	background-color: orange;
 }
@@ -591,7 +591,7 @@ a:any-link{
 	border-radius:400px
 }
 
-#user-button-container{
+.multi-button-container{
 	border:1px solid #88eaf3;
 	width: 30rem;
 	margin: 0 auto;
