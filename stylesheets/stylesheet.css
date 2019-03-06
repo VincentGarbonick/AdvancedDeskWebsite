@@ -501,12 +501,12 @@ a:any-link{
 	font-style: bold;
 }
 
-.medium-green-button{
+.user-page-button{
 	display: block;
 	margin: 0 auto;
 	width: 20rem;
 	height: 4rem;
-	background-color: green;
+	background-color:#7f94d8;
 	border-bottom: 4px solid white;
 	text-align: center;
 	border-radius: 4px;
@@ -524,7 +524,7 @@ a:any-link{
 	transform:translateY(-50%);
 }
 
-.medium-green-button:hover{
+.user-page-button:hover{
 	cursor: pointer;
 	background-color: orange;
 }
@@ -589,6 +589,16 @@ a:any-link{
 	float: right;
 	background-size: 100%;
 	border-radius:400px
+}
+
+#user-button-container{
+	border:1px solid #88eaf3;
+	width: 30rem;
+	margin: 0 auto;
+	margin-top: 1.2rem;
+	margin-bottom: 1.2rem;
+	background-color: #3c549f;
+	border-radius:10px;
 }
 /*work on title bar to look like what you have, make sure to realize that vw and vh make fluid shit 
 and to have image be larger than text in terms of height.*/
