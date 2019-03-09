@@ -1,6 +1,6 @@
 body {
 	font-family: Helvetica;
-	background-image: url("/img/mountain.jpg");
+/*	background-image: url("/img/mountain.jpg"); */
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-size: cover;
@@ -95,7 +95,7 @@ h4{
 .header-banner{
 	height: 10rem;
 	display: block;
-
+	background-image: url('/img/mountain.jpg');
 }
 
 
